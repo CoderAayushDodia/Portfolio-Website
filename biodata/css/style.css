@@ -322,7 +322,7 @@ body {
     display: none;
   }
   .hero {
-    width: 100%;
+    /* width: 100%; */
     margin: 60px 30px;
     flex-direction: column;
   }
