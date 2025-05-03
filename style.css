@@ -1,0 +1,429 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+  margin: 0px 150px;
+  background: rgb(17, 1, 17);
+  color: white;
+}
+
+.navbar {
+  margin: 100px 0 50px 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.about ul {
+  display: flex;
+}
+
+.navbar h1 {
+  font-size: 1.8rem;
+  font-weight: 100;
+}
+
+.about ul li {
+  list-style: none;
+  margin: 0 0 0 70px;
+  font-size: 1.35rem;
+}
+
+.text h3 {
+  font-size: 2rem;
+  font-weight: 100;
+  margin-bottom: 25px;
+}
+
+#para {
+  line-height: 28px;
+  margin-bottom: 40px;
+}
+
+.hero,
+.knowmore {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.img img {
+  height: 600px;
+}
+
+.text,
+.nxt-text {
+  width: 50%;
+}
+
+.text h1 {
+  font-size: 2.5rem;
+  font-weight: 100;
+  margin-bottom: 20px;
+}
+
+/* #parap {
+    margin-bottom: 30px;
+} */
+
+.btn {
+  padding: 10px 30px;
+  border-radius: 20px;
+  font-size: 1.3rem;
+}
+
+#Tag {
+  margin: 60px 0;
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 100;
+}
+
+.nxt-img img {
+  height: 450px;
+}
+
+.nxt-text .p {
+  width: 100%;
+}
+
+.project {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.p-img img {
+  height: 380px;
+}
+
+.p-text h3 {
+  margin: 20px 0;
+  font-weight: 100;
+  font-size: 1.5rem;
+}
+
+.p-text div button {
+  padding: 10px 15px;
+  font-size: 1rem;
+  background: transparent;
+  color: white;
+  outline: none;
+  border: 2px solid white;
+  border-radius: 10px;
+  margin-right: 15px;
+}
+
+.gmail {
+  margin: 100px 0;
+  text-align: center;
+}
+
+.gmail p {
+  font-size: 1.5rem;
+  margin-bottom: 30px;
+}
+
+.gmail h2 {
+  font-weight: 100;
+  font-size: 2.3rem;
+  margin-bottom: 20px;
+}
+
+.gmail h1 {
+  font-size: 3rem;
+  font-weight: 100;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  margin: 150px 0 100px 0;
+}
+
+.footer h1 {
+  font-size: 2rem;
+  font-weight: 100;
+}
+
+.icons i {
+  font-size: 1.5rem;
+  margin-left: 60px;
+}
+
+.copywrite {
+  margin-bottom: 100px;
+  font-size: 1.2rem;
+}
+
+.mobile {
+  display: none;
+  align-items: center;
+}
+
+#close {
+  display: none;
+}
+/* #para{
+    margin-bottom: 30px;
+    line-height: 22px;
+} */
+@media (max-width: 1100px) {
+  body {
+    margin: 0;
+  }
+  .navbar {
+    margin: 50px 70px;
+  }
+  .navbar h1 {
+    font-size: 1.5rem;
+  }
+  .navbar ul li {
+    font-size: 1rem;
+  }
+  .hero {
+    margin: 100px 70px 0;
+  }
+  .img img {
+    height: 400px;
+  }
+  .text h3 {
+    font-size: 1rem;
+    margin-bottom: 10px;
+  }
+  .text h1 {
+    font-size: 1.5rem;
+  }
+  #para {
+    font-size: 0.6rem;
+    line-height: 15px;
+    margin-bottom: 20px;
+  }
+  .btn {
+    padding: 5px 20px;
+    font-size: 0.7rem;
+    border-radius: 10px;
+  }
+  #Tag {
+    font-size: 1.5rem;
+  }
+  .knowmore {
+    margin: 20px 50px;
+  }
+  .nxt-img img {
+    height: 250px;
+  }
+  .project {
+    margin: 0px 50px;
+    gap: 10px;
+  }
+  .p-img img {
+    height: 220px;
+    margin-top: 20px;
+  }
+  .p-text h3 {
+    margin: 10px 0;
+    font-size: 0.8rem;
+  }
+  .p-text div button {
+    padding: 5px 10px;
+    margin-right: 10px;
+    font-size: 0.6rem;
+  }
+  .gmail {
+    margin: 70px 0;
+  }
+  .gmail p {
+    font-size: 1rem;
+    margin-bottom: 15px;
+  }
+  .gmail h2 {
+    font-weight: 100;
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+  }
+  .gmail h1 {
+    font-size: 2rem;
+  }
+  .footer {
+    margin: 50px 70px;
+    align-items: center;
+  }
+  .footer h1 {
+    font-size: 20px;
+  }
+  .icons i {
+    font-size: 1rem;
+    align-items: center;
+    justify-content: center;
+  }
+  .copywrite {
+    font-size: 0.7rem;
+    margin: 0px 70px 100px 70px;
+  }
+}
+@media (max-width: 830px) {
+  .navbar {
+    margin: 110px 50px 100px;
+  }
+  #para {
+    font-size: 0.9rem;
+    line-height: 20px;
+  }
+  .knowmore {
+    margin: 50px 50px;
+  }
+  .btn {
+    padding: 10px 20px;
+    font-size: 0.9rem;
+    border-radius: 15px;
+  }
+  .nxt-img img {
+    height: 350px;
+  }
+  .p-img img {
+    height: 300px;
+    margin-top: 20px;
+  }
+  .p-text h3 {
+    margin: 10px 0;
+    font-size: 1rem;
+  }
+  .p-text div button {
+    padding: 10px 15px;
+    margin-right: 10px;
+    font-size: 0.9rem;
+  }
+  .gmail h1 {
+    font-size: 1.5rem;
+  }
+  .footer h1 {
+    font-size: 30px;
+  }
+  .icons i {
+    font-size: 1.5rem;
+  }
+  .copywrite {
+    font-size: 1rem;
+  }
+}
+@media (max-width: 399px) {
+  .navbar {
+    margin: 60px 30px;
+  }
+  .about ul li {
+    flex-direction: column;
+    margin-left: 0;
+  }
+  .img img {
+    display: none;
+  }
+  .hero {
+    width: 100%;
+    margin: 60px 30px;
+    flex-direction: column;
+  }
+  #Tag {
+    margin: 60px 0;
+    font-size: 20px;
+  }
+  .text {
+    width: 100%;
+  }
+  .knowmore {
+    flex-direction: column;
+  }
+  .nxt-text {
+    width: 100%;
+  }
+  .nxt-text p {
+    margin-top: 20px;
+  }
+  .nxt-img {
+    width: 50%;
+    align-items: center;
+  }
+  .nxt-img img {
+    height: 250px;
+    object-fit: cover;
+    width: 100%;
+  }
+  .project {
+    flex-direction: column;
+    flex-wrap: nowrap;
+  }
+  .about {
+    display: none;
+  }
+  #about.active {
+    right: 0px;
+  }
+
+  #about li {
+    margin-bottom: 25px;
+  }
+
+  #about {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    position: fixed;
+    top: 0;
+    right: -300px;
+    height: 100vh;
+    width: 400px;
+    background: #e3e6f3;
+    box-shadow: 0 40px 60px rgba(0, 0, 0, 0.1);
+    padding: 80px 0 0 10px;
+    transition: 0.8s ease;
+  }
+
+  #about.active {
+    right: 0;
+  }
+
+  .mobile {
+    display: flex;
+    align-items: center;
+  }
+  .mobile i {
+    color: #1a1a1a;
+    font-size: 24px;
+    padding-left: 20px;
+  }
+  #close {
+    display: block;
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    font-size: 24px;
+    color: #222;
+  }
+  #bar {
+    color: white;
+  }
+  .gmail h2 {
+    font-size: 20px;
+    margin-top: 30px;
+  }
+  .gmail h1 {
+    font-size: 1.3rem;
+  }
+  .footer {
+    margin: 30px;
+  }
+  .footer h1{
+    font-size: 25px;
+  }
+  .icons i {
+    font-size: 1.5rem;
+    margin-left: 10px
+  }
+  .copywrite {
+    margin: 30px;
+  }
+}
