@@ -11,6 +11,26 @@ body {
   color: white;
 }
 
+/* Animation Effect */
+.animated-section {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.animate-on-scroll {
+  opacity: 0;
+  transform: translateY(50px);
+  transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+}
+
+.animate-on-scroll.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+/* Animated Effect */
+
 .navbar {
   margin: 100px 0 50px 0;
   display: flex;
@@ -152,8 +172,6 @@ body {
 .icons i {
   font-size: 1.5rem;
   margin-left: 60px;
-  
-  
 }
 
 .copywrite {
@@ -418,7 +436,7 @@ body {
   .footer {
     margin: 30px;
   }
-  .footer h1{
+  .footer h1 {
     font-size: 25px;
   }
   .icons i {
