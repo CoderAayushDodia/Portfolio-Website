@@ -152,6 +152,8 @@ body {
 .icons i {
   font-size: 1.5rem;
   margin-left: 60px;
+  color: white;
+  background-color: aqua;
 }
 
 .copywrite {
@@ -305,6 +307,8 @@ body {
   }
   .icons i {
     font-size: 1.5rem;
+    color: white;
+    background-color: white;
   }
   .copywrite {
     font-size: 1rem;
@@ -421,7 +425,8 @@ body {
   }
   .icons i {
     font-size: 1.5rem;
-    margin-left: 10px
+    margin-left: 10px;
+    color: white;
   }
   .copywrite {
     margin: 30px;
