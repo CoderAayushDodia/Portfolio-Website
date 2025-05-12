@@ -372,6 +372,7 @@ body {
   .about ul li {
     flex-direction: column;
     margin-left: 0;
+    display: none;
   }
   .img img {
     display: none;
